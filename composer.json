@@ -8,7 +8,7 @@
 		"platform-check": false
 	},
 	"require": {
-		"php": "^7.4",
+		"php": ">=7.4",
 		"codeigniter4/framework": "4.1.9",
 		"aws/aws-sdk-php": "^3.183.9",
 		"karriere/json-decoder": "^4.0",
