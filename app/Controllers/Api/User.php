@@ -17,6 +17,10 @@ use App\Models\ChildrenModel;
 use App\Models\InviteModel;
 use App\Models\UserModel;
 
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: *");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+
 class User extends BaseController {
     /**
      * @throws CustomException
